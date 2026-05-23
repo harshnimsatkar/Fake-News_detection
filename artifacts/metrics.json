@@ -1,0 +1,39 @@
+{
+  "best_model": "Passive Aggressive",
+  "selection_metric": "validation_f1",
+  "models": [
+    {
+      "model_name": "Naive Bayes",
+      "val_accuracy": 0.950764,
+      "val_f1": 0.945838,
+      "test_accuracy": 0.956595,
+      "precision": 0.94686,
+      "recall": 0.957471,
+      "f1": 0.952136,
+      "roc_auc": 0.990266,
+      "classification_report": "              precision    recall  f1-score   support\n\n        Real       0.96      0.96      0.96      4238\n        Fake       0.95      0.96      0.95      3480\n\n    accuracy                           0.96      7718\n   macro avg       0.96      0.96      0.96      7718\nweighted avg       0.96      0.96      0.96      7718\n"
+    },
+    {
+      "model_name": "Passive Aggressive",
+      "val_accuracy": 0.995595,
+      "val_f1": 0.995102,
+      "test_accuracy": 0.994688,
+      "precision": 0.995676,
+      "recall": 0.992529,
+      "f1": 0.9941,
+      "roc_auc": 0.999785,
+      "classification_report": "              precision    recall  f1-score   support\n\n        Real       0.99      1.00      1.00      4238\n        Fake       1.00      0.99      0.99      3480\n\n    accuracy                           0.99      7718\n   macro avg       0.99      0.99      0.99      7718\nweighted avg       0.99      0.99      0.99      7718\n"
+    },
+    {
+      "model_name": "Logistic Regression",
+      "val_accuracy": 0.98497,
+      "val_f1": 0.983159,
+      "test_accuracy": 0.987821,
+      "precision": 0.992437,
+      "recall": 0.98046,
+      "f1": 0.986412,
+      "roc_auc": 0.998982,
+      "classification_report": "              precision    recall  f1-score   support\n\n        Real       0.98      0.99      0.99      4238\n        Fake       0.99      0.98      0.99      3480\n\n    accuracy                           0.99      7718\n   macro avg       0.99      0.99      0.99      7718\nweighted avg       0.99      0.99      0.99      7718\n"
+    }
+  ]
+}
